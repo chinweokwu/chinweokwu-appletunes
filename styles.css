@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -730px; 
+  background-size: cover;
+}
+#nav-bar{
+  margin-top:85px;
+  margin-left:180px;
+  display:flex;
+
+}
+#nav-bar li{
+  display:flex;
+  width:110px;
+  height: 38px;
+	margin-left:1px;
+  border:1px solid #000;
+  flex-direction: row;
+}
+#nav-bar a{
+  display:flex;
+	padding:3px;
+	text-decoration:none;
+	color:#009
+}
+.main-sec{
+  text-align: center;
+}
