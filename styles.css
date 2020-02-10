@@ -8,7 +8,6 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #showcase{
-  color:white;
   text-align: center;
   height:450px;
 }
@@ -31,55 +30,108 @@ input{
   margin-top:2.5px;
   margin-left:3px;
 }
-.border{
-  border-left:1px;
+nav{
+  display:flex;
+}
+.relative{
+  position: absolute;
+  right: 195px;
+  top: 75px;
+
+}
+.icon{
+  width:100px;
+  
 }
 #nav-bar{
   margin-left:180px;
   display:flex;
 }
-
 #nav-bar li{
   display:flex;
   width:110px;
   height: 38px;
   flex-direction: row;
   margin-top:75px;
- 
 }
 #nav-bar a{
   display:flex;
 	padding:3px;
-	color:black;
+  color:black;
 }
-.element{
-  margin-top:50px;
+.icon2{
+  margin-right: 80px;
 }
-h1,h2,h3{
-  
+.nav-icon{
   color:white;
 }
+.p1{
+  position: absolute;
+  left:35px;
+  font-size: 20px;
+  top:5px;
+  color:white;
+  
+}
+.p2{
+  position: absolute;
+  left:130px;
+  top:7px;
+}
+.p3{
+  position: absolute;
+  left:240px;
+  top:7px;
+}
+.p4{
+  position: absolute;
+  left:335px;
+  top:7px;
+}
+.p5{
+  position:absolute;
+  left:424px;
+  top:7px;
+}
+.p6{
+  position: absolute;
+  left:535px;
+  top:7px;
+}
+.p7{
+  position: absolute;
+  left:628px;
+  top:7px;
+}
+.p8{
+  position: absolute;
+  left:720px;
+  top:7px;
+}
+.element{
+  margin-top:150px;
+}
+.text-img{
+  color:white;
+  width:980px;
+  height:84px;
+}
+.verse{
+  width:1000px
+}
 .element h3{
-  width:770px;
-  margin-left:310px;
-  margin-top: 20px;
-}
-.element h3 a{
-  font-size: 30px; 
-}
-.element h1 a{
-  font-size:50px;
+  margin-left:10px;
+  
 }
 .element a{
   color:white;
 }
 .para{
   margin-top:35px;
-  font-size: 25px;
 }
 a{
  text-decoration: none;
-
+ cursor:pointer;
 }
 a:hover{
   cursor: pointer;
