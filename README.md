@@ -36,7 +36,7 @@ To make this repository working in your local machine you need only a browser.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/elmejdki/TubeClone/issues).
+Feel free to check the [issues page](https://github.com/chinweokwu/chinweokwu-appletunes/issues).
 
 ## Show your support
 
@@ -44,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-a big hat to me and my partner Paul and anyone who help us either by openning issues on this repository or reviewing our code :)
+a big hat to me and  anyone who help me either by openning issues on this repository or reviewing our code :)
 
 ## 📝 License
 
