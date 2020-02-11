@@ -1,6 +1,7 @@
 # chinweokwu-appletunes
 
-> This project consists of building an HTML document that matches the appearance of [mint.com’s](https://www.mint.com) signup page
+>PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS
+> This project consists of building an HTML document that matches the appearance of [apple.com’s](https://www.apple.com) appletunes page
 
 ![screenshot](./Screenshot.png)
 
@@ -12,7 +13,7 @@
 - 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/chinweokwu/special-signup-form/create-signup-form/index.html)
+[Live Demo Link](https://vigilant-varahamihira-15cf40.netlify.com/)
 
 
 ## Getting Started
