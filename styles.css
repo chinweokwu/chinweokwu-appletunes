@@ -1,163 +1,209 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #fff;
+
+body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#showcase{
+
+#showcase {
   text-align: center;
-  height:450px;
+  height: 450px;
 }
- .bg-img{
+
+.bg-img {
   background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
   background-repeat: no-repeat;
-  background-position: 0 -730px; 
+  background-position: 0 -730px;
   background-size: cover;
   width: 100%;
-  height:800px;
-  position:absolute;
-  height:500px;
-  z-index:-1;
-}
-input{
-  width:105px;
-  border-radius:20px;
-  height:30px;
-  border:none;
-  margin-top:2.5px;
-  margin-left:3px;
-}
-nav{
-  display:flex;
-}
-.relative{
   position: absolute;
-  right: 195px;
-  top: 75px;
+  height: 500px;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
+input {
+  width: 105px;
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  margin-top: 2.5px;
+  margin-left: 3px;
 }
-.icon{
-  width:100px;
-  
+
+nav {
+  display: flex;
 }
-#nav-bar{
-  margin-left:180px;
-  display:flex;
+
+.relative {
+  position: absolute;
+  right: 228px;
+  top: 75px;
 }
-#nav-bar li{
-  display:flex;
-  width:110px;
-  height: 38px;
-  flex-direction: row;
-  margin-top:75px;
+
+.icon {
+  width: 100px;
 }
-#nav-bar a{
-  display:flex;
-	padding:3px;
-  color:black;
-}
-.icon2{
+
+.icon2 {
   margin-right: 80px;
 }
-.nav-icon{
-  color:white;
+
+.btn-10 {
+  width: 123px;
+  height: 35px;
 }
-.p1{
+
+.nav-icon {
+  color: white;
+}
+
+.p1 {
   position: absolute;
-  left:35px;
+  left: 35px;
   font-size: 20px;
-  top:5px;
-  color:white;
-  
+  top: 5px;
+  color: white;
 }
-.p2{
+
+.p2 {
   position: absolute;
-  left:130px;
-  top:7px;
+  left: 130px;
+  top: 7px;
 }
-.p3{
+
+.p3 {
   position: absolute;
-  left:240px;
-  top:7px;
+  left: 240px;
+  top: 7px;
 }
-.p4{
+
+.p4 {
   position: absolute;
-  left:335px;
-  top:7px;
+  left: 335px;
+  top: 7px;
 }
-.p5{
-  position:absolute;
-  left:424px;
-  top:7px;
-}
-.p6{
+
+.p5 {
   position: absolute;
-  left:535px;
-  top:7px;
+  left: 424px;
+  top: 7px;
 }
-.p7{
+
+.p6 {
   position: absolute;
-  left:628px;
-  top:7px;
+  left: 535px;
+  top: 7px;
 }
-.p8{
+
+.p7 {
   position: absolute;
-  left:720px;
-  top:7px;
+  left: 628px;
+  top: 7px;
 }
-.element{
-  margin-top:150px;
+
+.p8 {
+  position: absolute;
+  left: 720px;
+  top: 7px;
 }
-.text-img{
-  color:white;
-  width:980px;
-  height:84px;
+
+.p9 {
+  background-color: black;
 }
-.verse{
-  width:1000px
+
+.element {
+  margin-top: 150px;
 }
-.element h3{
-  margin-left:10px;
-  
+
+.top-text {
+  width: 110px;
+  height: 20px;
+  position: absolute;
+  left: 803px;
+  top: 4px;
+  background-color: #8a8a8a;
 }
-.element a{
-  color:white;
+
+.search-icon {
+  position: absolute;
+  left: 808px;
+  color: white;
+  top: 9px;
+  font-size: 10px;
 }
-.para{
-  margin-top:35px;
+
+.verse {
+  width: 1000px;
 }
-a{
- text-decoration: none;
- cursor:pointer;
+
+.element h3 {
+  margin-left: 10px;
 }
-a:hover{
+
+.para {
+  margin-top: 35px;
+}
+
+a {
+  text-decoration: none;
   cursor: pointer;
 }
-li{
+
+footer a {
+  color: #1e96d2;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.relative a {
+  color: white;
+}
+
+.element a {
+  color: white;
+}
+
+li {
   list-style: none;
 }
-.grid{
+
+.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  
 }
-#main{
-  margin-top:52px;
+
+#main {
+  margin-top: 52px;
 }
-#main img{
-  width: 336px; 
-  height:200px;
+
+#main img {
+  width: 336px;
+  height: 200px;
 }
-footer{
+
+footer {
   text-align: center;
+  margin: 20px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #6e6e6e;
 }
-.left{
-  display:flex;
+
+.left {
+  display: flex;
   justify-content: space-around;
 }
-.first{
-  margin-right:380px
+
+.first {
+  margin-right: 440px;
+}
+
+.copy-right {
+  margin-top: 15px;
+  margin-right: 600px;
 }
