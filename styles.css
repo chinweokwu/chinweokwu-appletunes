@@ -20,7 +20,7 @@ body {
   background-size: cover;
   width: 100%;
   position: absolute;
-  height: 500px;
+  height: 650px;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -36,7 +36,6 @@ nav {
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 footer a {
@@ -58,6 +57,7 @@ nav ul li {
   top: 5px;
   display: block;
   width: 100%;
+  cursor: pointer;
 }
 
 nav ul li a {
@@ -72,6 +72,7 @@ nav ul li a {
   padding-bottom: 8px;
   border-width: 0 1px 0 0;
   border-color: #565555;
+  cursor:pointer;
 }
 
 li.search-text {
@@ -87,6 +88,7 @@ li.search-text a {
 li.search-text a:hover {
   background: none;
   border-style: none;
+  background-color:white;
 }
 
 #searchtext {
@@ -168,10 +170,10 @@ footer {
 }
 
 .first {
-  margin-right: 440px;
+  margin-right: 330px;
 }
 
 .copy-right {
-  margin-top: 15px;
-  margin-right: 600px;
+  margin-top: 6px;
+  margin-right: 330px;
 }
