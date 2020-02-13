@@ -117,10 +117,11 @@ li.search-text a:hover {
   top: 35px;
 }
 
-.hero{
-  display:flex;
-  margin-top:230px;
+.hero {
+  display: flex;
+  margin-top: 230px;
 }
+
 .imgrow {
   width: 100%;
   object-fit: contain;
@@ -132,7 +133,6 @@ li.search-text a:hover {
   background-color: white;
   background-image: url("./images/thinking_bg.jpg");
   min-height: 100%;
-  
 }
 
 .colorful_bg {
@@ -146,6 +146,7 @@ li.search-text a:hover {
   background-image: url("./images/happybirthday_bg.jpg");
   min-height: 100%;
 }
+
 .respone_bg {
   background-color: white;
   background-image: url("./images/respone_bg.jpg");
