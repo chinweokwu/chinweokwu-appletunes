@@ -65,8 +65,9 @@ nav ul li :hover {
 
 li.search-text {
   position: relative;
-  left: -11px;
+  left: 11px;
   width: 76px;
+  top: 11px;
 }
 
 li.search-text a {
