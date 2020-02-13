@@ -4,81 +4,69 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#showcase {
-  text-align: center;
-  height: 450px;
-}
-
-.bg-img {
+.bg-image {
   background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
   background-repeat: no-repeat;
   background-position: 0 -730px;
   background-size: cover;
   width: 100%;
-  position: absolute;
   height: 650px;
   z-index: -1;
-  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
 }
 
 nav {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: -webkit-linear-gradient(top, #808080 1%, #5e5e5e 51%, #717171 100%);
   margin: 0 auto;
   width: 900px;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-  margin-top: 45px;
-}
-
-a {
-  text-decoration: none;
-}
-
-footer a {
-  color: #1e96d2;
-}
-
-li {
-  list-style: none;
+  position: relative;
+  top: 80px;
+  z-index: 1;
 }
 
 nav ul {
   display: flex;
-  width: 847px;
-  height: 50px;
+  width: 854px;
+  height: 40px;
 }
 
 nav ul li {
   position: relative;
-  top: 5px;
   display: block;
   width: 100%;
-  cursor: pointer;
+}
+
+footer a {
+  color: #1e96d2;
+  text-decoration: none;
 }
 
 nav ul li a {
   position: relative;
-  top: 5px;
   display: block;
   border-style: solid;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 16px;
   color: #d2d2d2;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  border-width: 0 1px 0 0;
-  border-color: #565555;
-  cursor:pointer;
+  height: 40px;
+  border: 1px solid #959595;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 10px;
+  padding-left: 24px;
+  text-decoration: none;
+}
+
+nav ul li :hover {
+  background: #606060;
 }
 
 li.search-text {
   position: relative;
-  left: 24px;
-  right: 25px;
+  left: -11px;
+  width: 76px;
 }
 
 li.search-text a {
@@ -86,17 +74,15 @@ li.search-text a {
 }
 
 li.search-text a:hover {
-  background: none;
   border-style: none;
-  background-color:white;
+  background: #606060;
+  width: 130px;
 }
 
 #searchtext {
   width: 100px;
-  height: 19px;
-  padding: 0 10px 1px 10px;
-  border-radius: 12px;
-  box-sizing: border-box;
+  height: 21px;
+  border-radius: 17px;
   background: #818181;
   border: 1px solid #565555;
   color: #fff;
@@ -106,50 +92,33 @@ li.search-text a:hover {
   position: absolute;
   left: 35px;
   font-size: 20px;
-  top: 5px;
+  top: 8px;
   color: #d2d2d2;
-}
-
-.element {
-  margin-top: 50px;
-}
-
-.top-text {
-  width: 110px;
-  height: 20px;
-  position: absolute;
-  left: 803px;
-  top: 4px;
-  background-color: #8a8a8a;
 }
 
 .search-icon {
   position: absolute;
-  left: 995px;
-  top: 65px;
+  left: 796px;
+  top: 14px;
   font-size: 10px;
   color: #d2d2d2;
 }
 
-.verse {
-  width: 1000px;
-}
-
-.element h3 {
-  margin-left: 10px;
+#header-text {
+  position: relative;
+  top: 95px;
+  z-index: 1;
+  padding-left: 145px;
 }
 
 .para {
-  margin-top: 35px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  top: 35px;
 }
 
 #main {
-  margin-top: 30px;
+  display: flex;
+  margin-top: 200px;
 }
 
 #main img {
@@ -162,18 +131,4 @@ footer {
   margin: 20px;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   color: #6e6e6e;
-}
-
-.left {
-  display: flex;
-  justify-content: space-around;
-}
-
-.first {
-  margin-right: 330px;
-}
-
-.copy-right {
-  margin-top: 6px;
-  margin-right: 330px;
 }

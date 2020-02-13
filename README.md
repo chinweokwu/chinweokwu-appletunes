@@ -10,7 +10,7 @@
 - HTML, CSS,
 - Flexbox
 - grid
-- 
+
 ## Live Demo
 
 [Live Demo Link](https://vigilant-varahamihira-15cf40.netlify.com/)
