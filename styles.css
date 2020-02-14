@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -730px;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  z-index: -1;
+  position: absolute;
+}
+
+nav {
+  background: -webkit-linear-gradient(top, #808080 1%, #5e5e5e 51%, #717171 100%);
+  margin: 0 auto;
+  width: 900px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  position: relative;
+  top: 80px;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  width: 854px;
+  height: 40px;
+}
+
+nav ul li {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+footer a {
+  color: #1e96d2;
+  text-decoration: none;
+}
+
+nav ul li a {
+  position: relative;
+  display: block;
+  border-style: solid;
+  font-size: 16px;
+  color: #d2d2d2;
+  height: 40px;
+  border: 1px solid #959595;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 10px;
+  padding-left: 24px;
+  text-decoration: none;
+}
+
+nav ul li :hover {
+  background: #606060;
+}
+
+li.search-text {
+  position: relative;
+  left: 11px;
+  width: 76px;
+  top: 11px;
+}
+
+li.search-text a {
+  border: none;
+}
+
+li.search-text a:hover {
+  border-style: none;
+  background: #606060;
+  width: 130px;
+}
+
+#searchtext {
+  width: 100px;
+  height: 21px;
+  border-radius: 17px;
+  background: #818181;
+  border: 1px solid #565555;
+  color: #fff;
+}
+
+.p1 {
+  position: absolute;
+  left: 35px;
+  font-size: 20px;
+  top: 8px;
+  color: #d2d2d2;
+}
+
+.search-icon {
+  position: absolute;
+  left: 796px;
+  top: 14px;
+  font-size: 10px;
+  color: #d2d2d2;
+}
+
+#header-text {
+  position: relative;
+  top: 95px;
+  z-index: 1;
+  padding-left: 145px;
+}
+
+.para {
+  position: relative;
+  top: 35px;
+}
+
+.hero {
+  display: flex;
+  margin-top: 230px;
+}
+
+.imgrow {
+  width: 100%;
+  object-fit: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.thinking_bg {
+  background-color: white;
+  background-image: url("./images/thinking_bg.jpg");
+  min-height: 100%;
+}
+
+.colorful_bg {
+  background-color: white;
+  background-image: url("./images/colorful_bg.jpg");
+  min-height: 100%;
+}
+
+.happybirthday_bg {
+  background-color: white;
+  background-image: url("./images/happybirthday_bg.jpg");
+  min-height: 100%;
+}
+
+.respone_bg {
+  background-color: white;
+  background-image: url("./images/respone_bg.jpg");
+  min-height: 100%;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #6e6e6e;
+}
