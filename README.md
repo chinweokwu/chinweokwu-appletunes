@@ -5,6 +5,10 @@
 
 ![screenshot](./Screenshot.png)
 
+## Screen Resolution 
+
+-1366 * 768
+
 ## Built With
 
 - HTML, CSS,
